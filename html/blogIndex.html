@@ -11,9 +11,77 @@
 
 <body>
     <div class="header"></div>
-    <div class="nav"></div>
+
     <div class="editForm">
-        <p>nmdzznmdzz</p>
+        <div class="nav"></div>
+        <div>
+            <div>
+                <div>
+                    <form action="">
+                        <textarea name="" id="" cols="30" rows="1" maxlength="40" placeholder="请输入标题（建议30字以内）"></textarea><br />
+                        <textarea name="" id="" cols="30" rows="10" placeholder="请输入正文（限制在200-40000字以内）"></textarea><br />
+                        <div class="articleCategorization">
+                            <h3>请设置文章分类</h3>
+                            <div>
+                                <ul>
+                                    <li>EPUB</li>
+                                    <li>日常</li>
+                                    <li>技术博文</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="articleCover">
+                            <h3>请设置文章封面</h3>
+                            <div>
+                                <input type="radio" id="singleFigure" />
+                                <label for="singleFigure">单图</label>
+                                <input type="radio" id="threeFigures" />
+                                <label for="threeFigures">三图</label>
+                            </div>
+                            <p>封面默认使用正文文字图片 若需使用定制单图，整文需存在至少1张不低于640x188 像素的图片（非gif图）</p>
+
+                            <div class="inputFile">
+                                <input type="file" id="realInputFile" style="display: none;" />
+                                <div>
+                                    <div></div>
+                                    <p>梦涵之诺</p>
+                                </div>
+                                <div></div>
+                                <div>
+                                    <div id="fakeInputFile">字体图标</div>
+                                </div>
+                                <div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <div>
+                                    <p>文章分类 EPUB</p>
+                                </div>
+                            </div>
+                        </div>
+                        <script>
+                            var fakeInputFile = document.querySelector('#fakeInputFile');
+                            var realInputFile = document.querySelector('#realInputFile');
+
+                            fakeInputFile.addEventListener('click', function(e) {
+                                // 模拟input点击事件
+                                var evt = new MouseEvent("click", {
+                                    bubbles: false,
+                                    cancelable: true,
+                                    view: window
+                                });
+                                realInputFile.dispatchEvent(evt);
+                            }, false);
+                        </script>
+                        <div class="formButton">
+                            <input type="button" class="button button-color1" value="提交文章" />
+                            <input type="button" class="button button-color2" value="存草稿" />
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 

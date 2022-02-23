@@ -1,0 +1,29 @@
+/* predefine */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: #04a3ef;
+}
+
+
+/* loginAndSignupBox */
+
+.loginAndSignupBox {
+    width: 900px;
+    height: 470px;
+    background-color: #38b9f6;
+    margin: 100px auto 0 auto;
+}
+
+.loginAndSignupBox>div {
+    width: 450px;
+    height: 570px;
+    background-color: #ffffff;
+}

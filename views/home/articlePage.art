@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/articlePage.css" />
+</head>
+
+<body>
+    <div class="articleClassify">
+        <ul>
+            <li>专栏</li>
+            <li>/</li>
+            <li>生活</li>
+            <li>/</li>
+            <li>日常</li>
+            <li>/</li>
+            <li>【野草】</li>
+        </ul>
+    </div>
+    <div class="articlePage">
+        <div class="article">
+            <div class="articleHead">
+                <div>
+                    <h2>【野草】</h2>
+                    <div>
+                        <ul>
+                            <li>短篇小说</li>
+                            <li>2022-01-16 10:01</li>
+                            <li>2050阅读</li>
+                            <li>68喜欢</li>
+                            <li>14评论</li>
+                        </ul>
+                    </div>
+                    <!-- 目前可省略 -->
+                    <div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="articleBody">
+                <div></div>
+            </div>
+        </div>
+        <!-- 文章推荐功能（文章数较少，目前暂时省略） -->
+        <div class="articleRecommend"></div>
+        <!-- 文章评论功能 -->
+        <div class="articleComments">
+            <div>3 评论</div>
+            <div>
+                <ul>
+                    <li>按热度排序</li>
+                    <li>按时间排序</li>
+                </ul>
+            </div>
+            <div class="articleCommentsInput">
+                <div></div>
+                <div>
+                    <p>发表评论</p>
+                </div>
+                <!-- 输入框存在一个bug -->
+                <div>
+                    <textarea name="" id="" cols="100" rows="3" placeholder="发一条友善的评论"></textarea>
+                </div>
+            </div>
+            <div class="comments">
+                <div>
+                    <div></div>
+                    <div>
+                        <div>亲木瓜77号</div>
+                        <p>我来大胆预测一下,这篇论文会获奖!</p>
+                    </div>
+                    <div style="clear: both;"></div>
+                    <div>
+                        <ul>
+                            <li>2022-02-19 18:05</li>
+                            <li>赞</li>
+                            <li>踩</li>
+                            <li>回复</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

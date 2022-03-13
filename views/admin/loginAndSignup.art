@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loginandsignup</title>
+    <link rel="stylesheet" href="css/loginandsignup.css" />
+
+</head>
+
+<body>
+    <div class="loginAndSignupBox">
+        <div id="loginAndSignupBox">
+            <div class="loginAndSignupBoxInside">
+                <div class="loginBox">
+                    <p>Sign In</p>
+                    <form action="" id="loginBox">
+                        <input type="text" placeholder="Username" name="loginUsername" />
+                        <input type="password" placeholder="Password" name="loginPassword" />
+                        <button id="loginButton">Login</button>
+                    </form>
+                    <div>
+                        <a>Forgot Passward</a>
+                    </div>
+                </div>
+                <div class="signupBox">
+                    <p>Sign UP</p>
+                    <form action="">
+                        <form action="">
+                            <input type="text" placeholder="Username" />
+                            <input type="email" placeholder="Email Adress" />
+                            <input type="password" placeholder="Password" />
+                            <input type="password" placeholder="Confirm Password" />
+                            <button>Register</button>
+                        </form>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div>
+                <p>Already Have an Account?</p>
+                <button id="signIn">Sign In</button>
+            </div>
+            <div>
+                <p>Don't Have an Account?</p>
+                <button id="signUp">Sign Up</button></div>
+        </div>
+    </div>
+    <script src="javascript/loginAndSingup.js"></script>
+</body>
+
+</html>

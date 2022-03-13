@@ -1,0 +1,151 @@
+/* predefine */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: #04a3ef;
+}
+
+
+/* loginAndSignupBox */
+
+.loginAndSignupBox {
+    width: 900px;
+    height: 470px;
+    background-color: #38b9f6;
+    margin: 100px auto 0 auto;
+    padding-top: 1px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.loginAndSignupBox>div:nth-child(1) {
+    width: 450px;
+    height: 570px;
+    background-color: #ffffff;
+    padding-top: 50px;
+    box-sizing: border-box;
+    position: absolute;
+    overflow: hidden;
+    top: -50px;
+    left: 0;
+    /* display: none; */
+}
+
+.loginAndSignupBoxInside {
+    width: 900px;
+    height: 470px;
+}
+
+.loginAndSignupBoxInside input,
+.loginAndSignupBoxInside button {
+    display: block;
+    outline: none;
+}
+
+.loginAndSignupBoxInside>div {
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
+.loginAndSignupBoxInside::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.signupBox>p,
+.loginBox>p {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.signupBox>p {
+    margin: 35px 0 15px 0;
+}
+
+.loginBox>p {
+    margin: 100px 0 15px 0;
+}
+
+.signupBox>form>input,
+.loginBox>form>input {
+    width: 100%;
+    height: 60px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    padding: 0 15px;
+}
+
+.signupBox>form>button,
+.loginBox>form>button {
+    padding: 14px 30px;
+    font-size: 18px;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+.signupBox>form>button {
+    border: 1px solid #f4354c;
+    background-color: #f4354c;
+}
+
+.loginBox>form>button {
+    border: 1px solid #05a8f6;
+    background-color: #05a8f6;
+}
+
+.loginBox>div {
+    margin-top: 12px;
+}
+
+.loginBox>div>a {
+    font-size: 16px;
+}
+
+.loginAndSignupBox>div:nth-child(2) {
+    margin-top: 170px;
+    padding: 0 100px 0 80px;
+}
+
+.loginAndSignupBox>div:nth-child(2)::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.loginAndSignupBox>div:nth-child(2)>div>p {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.loginAndSignupBox>div:nth-child(2)>div>button {
+    padding: 14px 30px;
+    font-size: 18px;
+    color: #000000;
+    box-sizing: border-box;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    display: block;
+    margin: 0 auto;
+}
+
+.loginAndSignupBox>div:nth-child(2)>div:nth-child(1) {
+    float: left;
+}
+
+.loginAndSignupBox>div:nth-child(2)>div:nth-child(2) {
+    float: right;
+}

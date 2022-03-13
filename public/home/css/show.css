@@ -1,0 +1,141 @@
+/* predefine */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    overflow-x: auto;
+}
+
+.articleList {
+    width: 980px;
+    margin: 0 auto;
+    padding-left: 180px;
+    background-color: aqua;
+    position: relative;
+}
+
+.articleShow {
+    width: 680px;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+    border-bottom: 1px solid #f4f5f7;
+    cursor: pointer;
+}
+
+.articleShow>div:nth-child(1) {
+    float: left;
+}
+
+.articleShow>div:nth-child(1)>p {
+    font-size: 12px;
+    color: #99a2aa;
+    line-height: 20px;
+}
+
+.articleShow>div:nth-child(1)>div {
+    margin-top: 10px;
+    padding: 5px 0;
+}
+
+.articleShow>div:nth-child(1)>div>div {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: black;
+    float: left;
+    margin-right: 5px;
+}
+
+.articleShow>div:nth-child(1)>div>p {
+    font-size: 12px;
+    line-height: 20px;
+    color: #99a2aa;
+    float: left;
+    margin-right: 20px;
+}
+
+.articleShow>div:nth-child(1)>div::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.articleShow>div:nth-child(2) {
+    float: right;
+}
+
+.articleShow>div:nth-child(2)>div {
+    width: 117px;
+    height: 88px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.articleShow::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/* shownav */
+
+.showNav {
+    position: fixed;
+    top: 0;
+}
+
+.showNav>ul {
+    list-style: none;
+}
+
+.showNav>ul>li {
+    text-align: center;
+    width: 180px;
+    margin: 15px 0;
+    margin-left: -180px;
+    cursor: pointer;
+}
+
+
+/* articleShowCarouselDiagram 轮播图 */
+
+.articleShowCarouselDiagram {
+    width: 680px;
+    height: 200px;
+    background-color: aquamarine;
+    overflow: hidden;
+}
+
+.articleShowCarouselDiagram>ul {
+    list-style: none;
+    width: 500%;
+    transform: translateX(-20px);
+    transition: 0.2s;
+}
+
+.articleShowCarouselDiagram>ul::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.articleShowCarouselDiagram>ul>li {
+    float: left;
+    width: 680px;
+    height: 200px;
+}
+
+.articleRecommend {
+    padding: 10px 0;
+}
+
+.articleRecommend>p {
+    font-size: 18px;
+}

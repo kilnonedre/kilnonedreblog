@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/show.css" />
+
+</head>
+
+<body>
+
+    <div class="articleList">
+        <div class="showNav">
+            <ul>
+                <li>技术博文</li>
+                <li>EPUB</li>
+                <li>日常</li>
+            </ul>
+        </div>
+        <div class="articleShowCarouselDiagram" id="articleShowCarouselDiagram">
+            <ul>
+                <li style="background-color: red;"></li>
+                <li style="background-color: orange;"></li>
+                <li style="background-color: yellow;"></li>
+                <li style="background-color: green;"></li>
+                <li style="background-color: blue;"></li>
+            </ul>
+        </div>
+        <div class="articleRecommend">
+            <p>推荐文章</p>
+        </div>
+        <div class="articleShow">
+            <div>
+                <h3>测试</h3>
+                <p>ceshiwenzhang</p>
+                <div>
+                    <div></div>
+                    <p>mhanzhinuo</p>
+                    <p>EPUB</p>
+                </div>
+            </div>
+            <div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <script src="javascript/show.js"></script>
+</body>
+
+</html>
